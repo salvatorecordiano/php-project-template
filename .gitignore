@@ -1,0 +1,4 @@
+/docker/log/
+/project/vendor/
+/.idea/
+/project/.phpunit.result.cache

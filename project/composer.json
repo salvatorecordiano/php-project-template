@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "salvatorecordiano\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "salvatorecordiano\\Tests\\": "tests/"
+        }
+    }
+}
