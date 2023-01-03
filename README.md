@@ -1,4 +1,4 @@
-# Template for PHP 7.4 projects
+# Template for PHP 8.2 projects
 
 ## Useful commands
 

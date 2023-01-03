@@ -2,25 +2,25 @@ version: "3.9"
 
 services:
   composer:
-    image: composer:2.3.5
+    image: composer:2.5
     restart: "no"
     volumes:
       - ./project:/app
     entrypoint: "composer install"
 #  php:
-#    image: php:7.4.29-cli
+#    image: php:8.2-cli
 #    restart: "no"
 #    volumes:
 #      - ./project:/app
 #    working_dir: /app
   php-fpm:
-    image: php:7.4.29-fpm
+    image: php:8.2-fpm
     container_name: php
     working_dir: /app
     volumes:
       - ./project:/app
   nginx:
-    image: nginx:1.21.6-alpine
+    image: nginx:1.23-alpine
     container_name: nginx
     working_dir: /app
     ports:
