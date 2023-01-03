@@ -1,4 +1,4 @@
-default: build
+default: start
 
 h help:
 	@grep '^[a-z]' Makefile
